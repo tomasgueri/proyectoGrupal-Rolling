@@ -28,17 +28,143 @@
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="./article.css" />
 
+    <!-- head de rosendo -->
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
     <title>
       La Inteligencia Artificial necesita la inteligencia de las mujeres
     </title>
   </head>
   <body>
     <header>
-      <nav class="bg-dark" style="height: 50px">
-        <ul>
-          <li class="text-white">Para dejar espacio</li>
-        </ul>
+      <!-- Navegador -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Inicio"
+            ><img src="./img/everis-logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            Menú
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item m-1">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="inicio.html#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link" href="nosotros.html#">Nosotros</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link" href="#articulos">Artículos</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li>
+                <button
+                  class="btn btn-outline-light m-1"
+                  type="button"
+                  data-bs-toggle="modal"
+                  href="#loginmodal"
+                >
+                  Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      <!-- Modal Login -->
+      <div
+        class="modal fade"
+        id="loginmodal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+              <i
+                type="button"
+                data-bs-dismiss="modal"
+                class="far fa-times-circle close"
+              ></i>
+            </div>
+            <div class="modal-body">
+              <!-- Formulario login -->
+              <form>
+                <div class="mb-3">
+                  <label for="correo" class="form-label"
+                    >Correo Electrónico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="correo"
+                    aria-describedby="emailHelp"
+                    placeholder="correo@correo.com"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="contraseña" class="form-label">Contraseña</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="contraseña"
+                    placeholder="8 dígitos como mínimo"
+                    required
+                  />
+                </div>
+              </form>
+              <div class="d-flex p-2 m-2">
+                <p>¿No tienes cuenta?</p>
+                <a
+                  class="nuevo-usuario"
+                  href="registro.html#"
+                  style="margin-left: 3px"
+                  >Registrarse</a
+                >
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button type="button" class="btn btn-dark">Iniciar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section class="banner-article d-flex">
@@ -246,14 +372,49 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-5">
             <img src="./images/logo.svg" alt="" class="col-6" />
-            <div class="iconos"></div>
-            <div class="iconos"></div>
-            <div class="iconos"></div>
+            <div class="d-flex mt-4">
+              <a href="" class="iconos"
+                ><span class="fab fa-facebook-square"></span
+              ></a>
+              <a href="" class="iconos"
+                ><span class="fab fa-instagram"></span
+              ></a>
+              <a href="" class="iconos"
+                ><span class="fab fa-twitter-square"></span
+              ></a>
+              <a href="" class="iconos"><span class="fab fa-youtube"></span></a>
+            </div>
+            <div class="mt-4">
+              <a href="" class="d-flex text-decoration-none"
+                ><p class="text-secondary text-hover-white">Aviso legal</p>
+              </a>
+              <a href="" class="d-flex text-decoration-none"
+                ><p class="text-secondary text-hover-white">
+                  Política de privacidad
+                </p></a
+              >
+            </div>
           </div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
+          <div class="col-12 col-md-4 footer-medio">
+            <h5 class="pb-3 text-white">Artículos destacados</h5>
+            <ul>
+              <li><a href="">El "ahora" de la Inteligencia Artificial</a></li>
+              <li><a href="">¿Quién le teme a la IA?</a></li>
+              <li><a href="">Lo que no se mide, no existe</a></li>
+              <li><a href="">¿Necesita un alma la IA?</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 footer-medio">
+            <h5 class="pb-3 text-white">Artículos nuevos</h5>
+            <ul>
+              <li><a href="">El "ahora" de la Inteligencia Artificial</a></li>
+              <li><a href="">¿Quién le teme a la IA?</a></li>
+              <li><a href="">Lo que no se mide, no existe</a></li>
+              <li><a href="">¿Necesita un alma la IA?</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
