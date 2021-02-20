@@ -88,15 +88,20 @@
   position: relative;
   flex-direction: column;
   justify-content: space-between;
+  border-top: 0.5rem black solid;
+  height: 300px;
+}
+.tarjeta:hover {
+  background: url(./images/banner-index.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
 }
 .hover-tarjeta > div:hover {
   filter: drop-shadow(0.3px 0.3px 1px rgb(94, 93, 93));
   transform: scale(0.98);
   transition: 0.3s;
   cursor: pointer;
-}
-.border-card {
-  border-top: 0.5rem black solid;
 }
 .card-titulo {
   font-family: "Playfair Display", serif;
@@ -107,7 +112,7 @@
 }
 
 /* style tomas */
-.banner-article {
+.banner-article-1 {
   background: url(./images/article1/article-banner.jpg);
   background-position: top;
   background-size: 100%;
@@ -245,7 +250,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .banner-article {
+  .banner-article-1 {
     height: 200px;
     margin-top: 60px;
     padding-bottom: 1rem;
