@@ -33,7 +33,9 @@
   padding-left: 1rem;
   width: 150px;
 }
-
+.active{
+  text-shadow: 1.5px 1.5px 1.5px #ce8b0fd3;
+}
 /* Login */
 
 .nuevo-usuario:hover {
@@ -295,4 +297,46 @@ footer {
   .about-body {
     padding: 5rem 0;
   }
+}
+
+/* Miembros del equipo */
+.card-miembros {
+  text-align: center;
+  margin: 10px;
+}
+
+.imagen-card-miembros {
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  
+}
+
+.imagen-card-miembros:hover {
+  -webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1);
+border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.75);
+}
+
+.red-miembro {
+  color: gray;
+  font-size: 35px;
+  padding: 0px 5px 0px 5px;
+}
+
+.red-miembro:hover {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+color: black;
 }
