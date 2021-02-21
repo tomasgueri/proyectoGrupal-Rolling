@@ -406,7 +406,37 @@ footer {
   transition: 0.6s;
   cursor: pointer;
 }
-
+.signup-body {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  height: 100%;
+}
+.logo-signup {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.signup-form {
+  background: white;
+  color: #212529;
+  width: 40%;
+  border-radius: 10px;
+  text-align: left;
+}
+.signup-form form {
+  padding: 1rem 1rem;
+}
+.signup-form label {
+  font-size: 13px;
+}
+.signup-form p {
+  font-size: 11px;
+}
+.signup-form i {
+  padding-right: 10px;
+}
 @media (max-width: 576px) {
   .banner-article-1 {
     height: 200px;
@@ -454,3 +484,4 @@ footer {
     padding: 5rem 0;
   }
 }
+
