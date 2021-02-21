@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- FontAwesone -->
+    <script src="https://kit.fontawesome.com/c4d80f8842.js" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="./article.css" />
+
+    <!-- head de rosendo -->
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+
+    <title>
+        Cómo entender los cambios de los clientes durante la pandemia con IA
+    </title>
+</head>
+
+<body>
+    <header>
+        <!-- Navegador -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Inicio"><img src="./images/logo.svg" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    Menú
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item m-1">
+                            <a class="nav-link active" aria-current="page" href="inicio.html#">Inicio</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link" href="about.html#">Nosotros</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link" href="#articles">Artículos</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                        <li>
+                            <button class="btn btn-outline-light m-1" type="button" data-bs-toggle="modal"
+                                href="#loginmodal">
+                                Login
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Modal Login -->
+        <div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+                        <i type="button" data-bs-dismiss="modal" class="far fa-times-circle close"></i>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Formulario login -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp"
+                                    placeholder="correo@correo.com" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="contraseña" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="contraseña"
+                                    placeholder="8 dígitos como mínimo" required />
+                            </div>
+                        </form>
+                        <div class="d-flex p-2 m-2">
+                            <p>¿No tienes cuenta?</p>
+                            <a class="nuevo-usuario" href="registro.html#" style="margin-left: 3px">Registrarse</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                        <button type="button" class="btn btn-dark">Iniciar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-article-2 d-flex">
+        <div class="container   titulo-principal">
+            <div class="d-block text-white">
+                <h2>
+                    Cómo entender los cambios de los clientes durante la pandemia con IA
+                </h2>
+                <p class="d-none d-md-block">NUEVA NORMALIDAD</p>
+                <div class="datos row d-none d-md-flex">
+                    <div class="d-flex col pt-3">
+                        <p><i class="fas fa-calendar-day"></i> 11/02/21</p>
+                        <p><i class="far fa-clock"></i> 18:15</p>
+                        <p><i class="fas fa-user-edit"></i> Delgado Carolina</p>
+                    </div>
+                    <div class="d-flex col">
+                        <div class="tags"><strong>Noticias</strong></div>
+                        <div class="tags"><strong>Actualidad</strong></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container pb-5">
+        <div class="row">
+            <div class="col-12 col-md-12 col-xl-8 columna-izquierda">
+                <div class="datos d-block d-md-none">
+                    <div class="d-flex col pt-3">
+                        <p><i class="fas fa-calendar-day"></i> 11/02/21</p>
+                        <p><i class="far fa-clock"></i> 18:15</p>
+                        <p><i class="fas fa-user-edit"></i>Delgado Carolina</p>
+                    </div>
+                    <div class="d-flex col">
+                        
+                        <div class="tags"><strong>Noticias</strong></div>
+                        <div class="tags"><strong>Actualidad</strong></div>
+                    </div>
+                </div>
+                <h6 class="py-5">
+                    Las nuevas tecnologías de IA y aprendizaje automático podrían ayudar a entender la manera en que el
+                    COVID está cambiando los hábitos de los clientes
+                </h6>
+                <p>
+                    A once meses del inicio de la pandemia, la “nueva normalidad” sigue siendo un concepto vago. El
+                    sentimiento de los consumidores y las puntuaciones de crédito han aumentado. Sin embargo, en Europa
+                    se han aplicado nuevos confinamientos, en Estados Unidos las reaperturas cambian todos los días y
+                    masas de clientes nuevos y existentes están adoptando un estilo de vida digital como nunca antes.
+
+                    Cuando la incertidumbre ataca, ¿cómo pueden los bancos y los comercios utilizar la inteligencia
+                    artificial para reabrir exitosamente, conocer los cambios de los clientes durante la pandemia e
+                    interactuar con los clientes para satisfacer sus necesidades cambiantes? Este artículo nos explica
+                    cómo lograrlo.
+                </p>
+                <p>
+                <p class="fw-bold">Los datos están cambiando</p>
+
+                Al menos una cosa es cierta en la era del COVID: los datos están cambiando. La IA nos puede ayudar a
+                entender mejor esos cambios.
+
+                Por ejemplo, la división de fraude de FICO lleva tiempo utilizando perfiles colaborativos y
+                arquetipos de comportamiento, un constructo analítico en el cual los clientes se pueden agrupar en
+                un número limitado de clústeres de comportamiento. Los comportamientos de las transacciones de un
+                clúster se pueden analizar para determinar si un cliente en ese grupo se está comportando de manera
+                normal o anormal. Esta técnica resulta útil para identificar las transacciones fraudulentas, además
+                de ser muy valioso para conocer la forma en que los hábitos de gasto del cliente han cambiado, tal
+                como ha sucedido durante la pandemia. Si un cliente siempre ha comprado sus productos electrónicos
+                en Apple, pero recientemente adquirió una computadora en una tienda de descuento en línea, ¿esa
+                compra podría atribuirse a un fraude, a una reducción de salario o pérdida del empleo, o a un gasto
+                dentro de sus posibilidades?
+                </p>
+
+                <p>
+                <p class="fw-bold">Los perfiles colaborativos cuentan una historia</p>
+
+                Las tecnologías de creación de perfiles colaborativos de FICO traducen cada transacción en un evento
+                o “palabra”, y todas las transacciones pasadas y actuales forman una “historia” figurativa. Esas
+                historias traducen la información de cada transacción en una serie de comportamientos
+                característicos de los clientes. Cada cliente tiene diferentes cargas estadísticas de comportamiento
+                y, a medida que las transacciones nuevas agregan palabras a la historia, los comportamientos que
+                describen al cliente cambian en consecuencia.
+
+                Cabe señalar que los arquetipos que se aprenden cambian con cada transacción, lo que proporciona una
+                medición en tiempo real de la situación actual del cliente y sus comportamientos esperados. Durante
+                la pandemia, en la que resulta fundamental conocer la trayectoria del cliente, los perfiles
+                colaborativos ofrecen una mirada a las dificultades sin precedentes que los clientes podrían estar
+                experimentando, tal como se muestra en sus complicadas trayectorias.
+                </p>
+                <p>
+                    <p class="fw-bold">La IA da vida a los datos estáticos</p> 
+
+                    Los cambios se pueden observar a través de un modelo de filtrado colaborativo basado en los
+                    arquetipos y comportamientos de las transacciones antes y durante el COVID, y luego ver la manera en
+                    que están mutando las cargas de los arquetipos de comportamiento del cliente. Los conocimientos
+                    obtenidos a partir de este ejercicio pueden ayudarnos a decidir cómo interactuar con los clientes de
+                    forma diferente; los algoritmos de detección de cambios nos indican si debemos comunicarnos con el
+                    cliente, y las cargas de los arquetipos nos permiten saber la mejor manera de hacerlo.
+
+                    Análogamente, por medio del filtrado colaborativo podemos saber de manera intuitiva qué personas han
+                    experimentado un impacto financiero mínimo debido al COVID y cuáles se han visto seriamente
+                    afectadas. La pandemia no ha convertido a los humanos en alienígenas —las personas siguen comprando
+                    alimentos, pidiendo comida a domicilio y pagando sus tarjetas de crédito—, pero sin duda el COVID
+                    está dando lugar a cambios importantes en los hábitos individuales de los clientes. ¿Cómo pueden los
+                    bancos y los comercios conocer esos cambios para entender e interactuar adecuadamente con ellos?
+
+                    Con el fin de cumplir ese objetivo, aplicar la IA para analizar los cambios en el comportamiento de
+                    las transacciones puede ser sumamente revelador, ya que aporta significado, color y vida a los datos
+                    estáticos que los modelos consideran, tales como los informes del buró de crédito o los archivos
+                    maestros de las cuentas de los clientes
+                </p>
+                
+                <p>
+                    <strong>Fuente: </strong><a target="_blank"
+                        href="https://blog.everis.com/es/blog/responsabilidad-social/la-inteligencia-artificial-necesita-la-inteligencia-de-las-mujeres">blog.everis.com</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-12 col-xl-4 bg-light columna-derecha">
+                <div class="mb-5">
+                    <h5 class="pb-3">Artículos relacionados</h5>
+                    <ul>
+                        <li>
+                            <a href="">¿Tocado y hundido? IA y blockchain para resolver los desafíos
+                                de los puertos marítimos</a>
+                        </li>
+                        <li><a href="">El "ahora" de la Inteligencia Artificial</a></li>
+                        <li>
+                            <a href="">Tu primer contacto con el mundo de la AI desde el sofá de tu
+                                casa</a>
+                        </li>
+                        <li><a href="">¿Quién le teme a la IA?</a></li>
+                        <li><a href="">Lo que no se mide, no existe</a></li>
+                        <li><a href="">¿Necesita un alma la IA?</a></li>
+                    </ul>
+                </div>
+                <div class="mt-5">
+                    <h5 class="pb-3">Artículos recientes</h5>
+                    <ul>
+                        <li><a href="">La IA necesita la inteligencia de la mujeres</a></li>
+                        <li><a href="">Cómo entender los cambios de los clientes durante la pandemia con IA</a></li>
+                        <li><a href="">Inversión en IA y Digitalización, clave para las empresas 2021</a></li>
+                        <li><a href="">Matercard lanza una solucion impulsada por IA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="contact">
+        <div class="container">
+            <div class="row">
+                <form>
+                    <h4>Suscríbete para recibir nuestro contenido gratis</h4>
+                    <div class="d-block d-md-flex">
+                        <div class="mb-3 col-12 col-md-6 imput">
+                            <label for="exampleInputNombre" class="form-label">Apellido y Nombre</label>
+                            <input type="text" class="form-control" id="exampleInputNombre" />
+                        </div>
+                        <div class="mb-3 col-12 col-md-6 imput">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required />
+                            <div id="emailHelp" class="form-text">
+                                Nunca compartiremos tu correo electrónico con alguien más.
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-outline-light">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-5">
+                    <img src="./images/logo.svg" alt="" class="col-6" />
+                    <div class="d-flex mt-4">
+                        <a href="" class="iconos"><span class="fab fa-facebook-square"></span></a>
+                        <a href="" class="iconos"><span class="fab fa-instagram"></span></a>
+                        <a href="" class="iconos"><span class="fab fa-twitter-square"></span></a>
+                        <a href="" class="iconos"><span class="fab fa-youtube"></span></a>
+                    </div>
+                    <div class="mt-4">
+                        <a href="" class="d-flex text-decoration-none">
+                            <p class="text-secondary text-hover-white">Aviso legal</p>
+                        </a>
+                        <a href="" class="d-flex text-decoration-none">
+                            <p class="text-secondary text-hover-white">
+                                Política de privacidad
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 footer-medio">
+                    <h5 class="pb-3 text-white">Artículos destacados</h5>
+                    <ul>
+                        <li><a href="">Inversión en IA y Digitalización, clave para las empresas 2021</a></li>
+                        <li><a href="">Cómo entender los cambios de los clientes durante la pandemia con IA</a></li>
+                        <li><a href="">Matercard lanza una solucion impulsada por IA</a></li>
+                        <li><a href="">IA revoluciona la innovacion en las industrias</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 footer-medio">
+                    <h5 class="pb-3 text-white">Artículos nuevos</h5>
+                    <ul>
+                        <li><a href="">La IA necesita la inteligencia de la mujeres</a></li>
+                        <li><a href="">Cómo entender los cambios de los clientes durante la pandemia con IA</a></li>
+                        <li><a href="">Inversión en IA y Digitalización, clave para las empresas 2021</a></li>
+                        <li><a href="">Matercard lanza una solucion impulsada por IA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
