@@ -249,7 +249,11 @@ a.link-art {
   text-decoration: none;
   cursor: default;
   color: black;
-  
+}
+a.link-art:hover {
+  text-decoration: none;
+  cursor: default;
+  color:white;
 }
 
 /* style Carolina-Article-2.html */
@@ -452,5 +456,4 @@ footer {
 @media (max-width: 576px) {
   .about-body {
     padding: 5rem 0;
-  }
-}
+  }}}
