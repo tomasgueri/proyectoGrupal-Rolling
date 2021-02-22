@@ -1,191 +1,178 @@
 /* Style carolina */
 .banner-seccion-articulos {
-    background: url(./images/Carolina/banner-seccion-articulos.jpg);
-    background-position:center;
-    height: 500px;
-    background-repeat: no-repeat;
-    padding-bottom: 2rem;
-  }
-  .texto-banner {
-    padding-top: 15rem;
-    padding-right: 20rem;
-    padding-bottom: 5rem;
-  }
-  .tarjeta-1 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-1:hover  {
-    background: url(images/article1/article-banner.jpg);
-    background-position: top;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-    background-blend-mode:soft-light;
-  }
-  .btn-dark {
-    border-color: white;
-  }
-  .hover-tarjeta > div:hover {
-    filter: drop-shadow(0.3px 0.3px 1px rgb(94, 93, 93));
-    transform: scale(0.98);
-    transition: 0.1s;
-    cursor: pointer;
-  }
-  .card-titulo {
-    font-family: "Playfair Display", serif;
-    font-size: 30px;
-  }
-  .card-texto {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-  }
-  .tarjeta-2 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-2:hover {
-    background: url(./images/Carolina/imagen-1-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tarjeta-3 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-3:hover {
-    background: url(./images/Carolina/imagen-3-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tarjeta-4 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-4:hover {
-    background: url(./images/Carolina/imagen-4-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tarjeta-5 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-5:hover {
-    background: url(./images/Carolina/imagen-5-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tarjeta-6 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-6:hover {
-    background: url(./images/Carolina/imagen-6-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tarjeta-7 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-7:hover {
-    background: url(./images/Carolina/imagen-7-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tarjeta-8 {
-    background-color: #f7f7f7;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top: 0.5rem black solid;
-    min-height: 350px;
-  }
-  .tarjeta-8:hover {
-    background: url(./images/Carolina/imagen-8-art.jpg);
-    background-position: center;
-    color: white;
-    border-top: 0.5rem white solid;
-    opacity: 90%;
-  }
-  .tabla {
-    padding: 4rem 4rem;
-    Font-family: 'Roboto', sans-serif;
-    Font-Size: 16px;
-  }
-  a.link-art {
-    text-decoration: none;
-    cursor: default;
-    color: black;
-  }
-  a.link-art:hover {
-    text-decoration: none;
-    cursor: default;
-    color:white;
-  }
-  
-  /* style Carolina-Article-2.html */
-  .banner-article-2 {
-    background: url(./images/Carolina/imagen-1-art.jpg);
-    height: 400px;
-    background-repeat: no-repeat;
-    padding-bottom: 2rem;
-  }
-  /* style Carolina-Article-3.html */
-  .banner-article-3 {
-    background: url(./images/Carolina/imagen-3-art.jpg);
-    background-position: center;
-    height: 400px;
-    background-repeat: no-repeat;
-    padding-bottom: 2rem;
-  }
-  
+  background: url(./images/Carolina/banner-seccion-articulos.jpg);
+  background-position: center;
+  height: 500px;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+}
+.texto-banner {
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.tarjeta-1 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-1:hover {
+  background: url(images/article1/article-banner.jpg);
+  background-position: top;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+  background-blend-mode: soft-light;
+  background-size: 100%;
+}
+.btn-dark {
+  border-color: white;
+}
+.hover-tarjeta > div:hover {
+  filter: drop-shadow(0.3px 0.3px 1px rgb(94, 93, 93));
+  transform: scale(0.98);
+  transition: 0.1s;
+  cursor: pointer;
+}
+.card-titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+.card-texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.tarjeta-2 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-2:hover {
+  background: url(./images/Carolina/imagen-1-art.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+  background-size: unset 100%;
+}
+.tarjeta-3 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-3:hover {
+  background: url(./images/Carolina/imagen-3-art.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+  background-size: 100%;
+}
+.tarjeta-4 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-4:hover {
+  background: url(./images/Carolina/imagen-4-art.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+}
+.tarjeta-5 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-5:hover {
+  background: url(./images/Carolina/imagen-5-art.jpg);
+  background-position: bottom;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+}
+.tarjeta-6 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-6:hover {
+  background: url(./images/Carolina/imagen-6-art.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+}
+.tarjeta-7 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-7:hover {
+  background: url(./images/Carolina/imagen-7-art.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+}
+.tarjeta-8 {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.5rem black solid;
+  min-height: 350px;
+}
+.tarjeta-8:hover {
+  background: url(./images/Carolina/imagen-8-art.jpg);
+  background-position: center;
+  color: white;
+  border-top: 0.5rem white solid;
+  opacity: 90%;
+}
+.tabla {
+  padding: 4rem 4rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+a.link-art {
+  text-decoration: none;
+  cursor: default;
+  color: black;
+}
+a.link-art:hover {
+  text-decoration: none;
+  cursor: default;
+  color: white;
+}

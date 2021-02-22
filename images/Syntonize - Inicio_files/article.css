@@ -290,7 +290,7 @@ a.link-art:hover {
   display: flex;
   justify-content: center;
 }
-.boton-index a {
+.boton-index button {
   width: 40%;
 }
 .banner-article-1 {
