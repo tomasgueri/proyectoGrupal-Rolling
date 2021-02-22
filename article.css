@@ -319,7 +319,6 @@ a.link-art:hover {
   padding-bottom: 2rem;
 }
 .banner-index {
-  background-size: 100%;
   background: url(./images/Carolina/imagen-6-art.jpg);
   background-position: center;
   background-size: 100%;
@@ -490,6 +489,10 @@ footer {
 @media (max-width: 576px) {
   .signup-form {
     width: 95%;
+  }
+  .banner-index {
+    margin-top: -30px;
+    background-size: unset;
   }
   .banner-article-1 {
     height: 200px;
