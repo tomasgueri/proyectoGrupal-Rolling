@@ -452,7 +452,19 @@ footer {
 .signup-form i {
   padding-right: 10px;
 }
+
+/* @media para modo tablet */
+@media (max-width: 800px) {
+  .signup-form {
+    width: 70%;
+  }
+}
+
+/* @media para mobile xl */
 @media (max-width: 576px) {
+  .signup-form {
+    width: 95%;
+  }
   .banner-article-1 {
     height: 200px;
     margin-top: 60px;
