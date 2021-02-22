@@ -22,7 +22,7 @@
     <link rel="shortcut icon" href="images/Imagen-logo-favicon.png" type="image/x-icon">
 
     <!-- head de rosendo -->
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="rosendo.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
 
@@ -34,104 +34,157 @@
 <body>
     <header>
         <!-- Navegador -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="Inicio"><img src="./images/logo.svg" alt="" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    Menú
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item m-1">
-                            <a class="nav-link" aria-current="page" href="inicio.html#">Inicio</a>
-                        </li>
-                        <li class="nav-item m-1">
-                            <a class="nav-link" href="about.html#">Nosotros</a>
-                        </li>
-                        <li class="nav-item m-1">
-                            <a class="nav-link active" href="#articles">Artículos</a>
-                        </li>
-                        <li class="nav-item m-1">
-                            <a class="nav-link" href="#contact">Contacto</a>
-                        </li>
-                        <li>
-                            <button class="btn btn-outline-light m-1" type="button" data-bs-toggle="modal"
-                                href="#loginmodal">
-                                Login
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Modal Login -->
-        <div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
-                        <i type="button" data-bs-dismiss="modal" class="far fa-times-circle close"></i>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Formulario login -->
-                        <form>
-                            <div class="mb-3">
-                                <label for="correo" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp"
-                                    placeholder="correo@correo.com" required />
-                            </div>
-                            <div class="mb-3">
-                                <label for="contraseña" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" id="contraseña"
-                                    placeholder="8 dígitos como mínimo" required />
-                            </div>
-                        </form>
-                        <div class="d-flex p-2 m-2">
-                            <p>¿No tienes cuenta?</p>
-                            <a class="nuevo-usuario" href="registro.html#" style="margin-left: 3px">Registrarse</a>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <button type="submit" class="btn btn-outline-dark col-12 mb-4">
-                          <i class="fab fa-google"></i> Registrarse con Google
-                        </button>
-                        </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">
-                            Cerrar
-                        </button>
-                        <button type="button" class="btn btn-dark">Iniciar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Seccion Inicio -->
 
-    <section class="banner-article-2 d-flex">
-        <div class="container   titulo-principal">
-            <div class="d-block text-white">
-                <h2>
-                    Cómo entender los cambios de los clientes durante la pandemia con IA
-                </h2>
-                <p class="d-none d-md-block">NUEVA NORMALIDAD</p>
-                <div class="datos row d-none d-md-flex">
-                    <div class="d-flex col pt-3">
-                        <p><i class="fas fa-calendar-day"></i> 11/02/21</p>
-                        <p><i class="far fa-clock"></i> 18:15</p>
-                        <p><i class="fas fa-user-edit"></i> Delgado Carolina</p>
-                    </div>
-                    <div class="d-flex col">
-                        <div class="tags"><strong>Noticias</strong></div>
-                        <div class="tags"><strong>Actualidad</strong></div>
-                    </div>
-                </div>
-            </div>
+    <!-- Navegador -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./images/logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            Menú
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item m-1">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link" href="about.html">Nosotros</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link active" href="articulos.html">Artículos</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+              <li>
+                <button
+                  class="btn btn-outline-light m-1"
+                  type="button"
+                  data-bs-toggle="modal"
+                  href="#loginmodal"
+                >
+                  Login
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </nav>
+      <!-- Modal Login -->
+      <div
+        class="modal fade"
+        id="loginmodal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+              <i
+                type="button"
+                data-bs-dismiss="modal"
+                class="far fa-times-circle close"
+              ></i>
+            </div>
+            <div class="modal-body">
+              <!-- Formulario login -->
+              <form>
+                <div class="mb-3">
+                  <label for="correo" class="form-label"
+                    >Correo Electrónico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="correo"
+                    aria-describedby="emailHelp"
+                    placeholder="correo@correo.com"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="contraseña" class="form-label">Contraseña</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="contraseña"
+                    placeholder="8 dígitos como mínimo"
+                    required
+                  />
+                </div>
+              </form>
+              <div class="d-flex p-2 m-2">
+                <p>¿No tienes cuenta?</p>
+                <a
+                  class="nuevo-usuario"
+                  href="registro.html#"
+                  style="margin-left: 3px"
+                  >Registrarse</a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <button type="submit" class="btn btn-outline-dark col-12 mb-4">
+                <i class="fab fa-google"></i> Iniciar con Google
+              </button>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button type="button" class="btn btn-dark">Iniciar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner-article-2 d-flex">
+        <div class="container titulo-principal">
+          <div class="d-block text-white">
+            <h2>
+                Cómo entender los cambios de los clientes durante la pandemia con IA
+            </h2>
+            <p class="d-none d-md-block">NUEVA NORMALIDAD</p>
+            <div class="datos row d-none d-md-flex">
+              <div class="d-flex col pt-3">
+                <p><i class="fas fa-calendar-day"></i> 11/02/21</p>
+                <p><i class="far fa-clock"></i> 18:15</p>
+                <p><i class="fas fa-user-edit"></i> Delgado Carolina</p>
+              </div>
+              <div class="d-flex col">
+                <div class="tags"><strong>Noticias</strong></div>
+                <div class="tags"><strong>Actualidad</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
     <section class="container pb-5">
         <div class="row">
