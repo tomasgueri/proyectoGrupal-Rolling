@@ -84,7 +84,7 @@
 /* Style carolina */
 .banner-seccion-articulos {
   background: url(./images/Carolina/banner-seccion-articulos.jpg);
-  background-position:center;
+  background-position: center;
   height: 500px;
   background-repeat: no-repeat;
   padding-bottom: 2rem;
@@ -102,14 +102,20 @@
   justify-content: space-between;
   border-top: 0.5rem black solid;
   min-height: 350px;
+  border-radius: 100px;
 }
-.tarjeta-1:hover  {
+.tarjeta-1:hover {
   background: url(images/article1/article-banner.jpg);
   background-position: top;
   color: white;
   border-top: 0.5rem white solid;
   opacity: 90%;
-  background-blend-mode:soft-light;
+  background-size: 100%;
+  background-blend-mode: soft-light;
+  border-radius: 100px;
+}
+.div-rounded {
+  border-radius: 100px;
 }
 .btn-dark {
   border-color: white;
@@ -143,6 +149,8 @@
   color: white;
   border-top: 0.5rem white solid;
   opacity: 90%;
+  background-repeat: no-repeat;
+  background-size: unset 100%;
 }
 .tarjeta-3 {
   background-color: #f7f7f7;
@@ -159,6 +167,8 @@
   color: white;
   border-top: 0.5rem white solid;
   opacity: 90%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .tarjeta-4 {
   background-color: #f7f7f7;
@@ -187,10 +197,12 @@
 }
 .tarjeta-5:hover {
   background: url(./images/Carolina/imagen-5-art.jpg);
-  background-position: center;
+  background-position: bottom;
   color: white;
   border-top: 0.5rem white solid;
   opacity: 90%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .tarjeta-6 {
   background-color: #f7f7f7;
@@ -242,8 +254,8 @@
 }
 .tabla {
   padding: 4rem 4rem;
-  Font-family: 'Roboto', sans-serif;
-  Font-Size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 a.link-art {
   text-decoration: none;
@@ -253,7 +265,7 @@ a.link-art {
 a.link-art:hover {
   text-decoration: none;
   cursor: default;
-  color:white;
+  color: white;
 }
 
 /* style Carolina-Article-2.html */
@@ -271,7 +283,6 @@ a.link-art:hover {
   background-repeat: no-repeat;
   padding-bottom: 2rem;
 }
-
 
 /* style tomas */
 .banner-article-1 {
@@ -476,14 +487,15 @@ footer {
     height: 1rem;
   }
 
+  /* View About */
 
-/* View About */
-
-.about-body {
-  padding: 5rem 12rem;
-}
-
-@media (max-width: 576px) {
   .about-body {
-    padding: 5rem 0;
-  }}}
+    padding: 5rem 12rem;
+  }
+
+  @media (max-width: 576px) {
+    .about-body {
+      padding: 5rem 0;
+    }
+  }
+}
