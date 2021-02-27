@@ -128,7 +128,7 @@
   cursor: pointer;
 }
 .card-titulo {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
 }
 .card-texto {
