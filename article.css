@@ -271,6 +271,15 @@ a.link-art:hover {
   padding-bottom: 2rem;
   display: flex;
 }
+.banner-about {
+  background: url(./images/Carolina/banner-nosotros.jpg);
+  background-position:top;
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  display: flex;
+}
 .texto-banner {
   justify-content: left;
   display: flex;
