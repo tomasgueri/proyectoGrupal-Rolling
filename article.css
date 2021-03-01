@@ -323,6 +323,12 @@ a.link-art:hover {
   padding-bottom: 2rem;
   display: flex;
 }
+.texto-banner {
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  color: white;
+}
 .texto-baner-index  {
   align-items: center;
 }
