@@ -6,12 +6,6 @@
   background-repeat: no-repeat;
   padding-bottom: 2rem;
 }
-.texto-banner {
-  justify-content: left;
-  display: flex;
-  align-items: center;
-  color: white;
-}
 .tarjeta-1 {
   background-color: #f7f7f7;
   display: flex;
@@ -22,13 +16,15 @@
   min-height: 350px;
 }
 .tarjeta-1:hover {
+  transition: 1.2s;
   background: url(images/article1/article-banner.jpg);
   background-position: top;
   color: white;
   border-top: 0.5rem white solid;
   opacity: 90%;
   background-blend-mode: soft-light;
-  background-size: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 .btn-dark {
   border-color: white;
