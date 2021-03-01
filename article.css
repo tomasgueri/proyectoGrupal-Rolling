@@ -110,7 +110,7 @@
 .card-texto {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-}kground-size: unset 100%;
+  background-size: unset 100%;
 }
 .tarjeta-4 {
   background-color: #f7f7f7;
