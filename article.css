@@ -88,28 +88,8 @@
   height: 500px;
   background-repeat: no-repeat;
   padding-bottom: 2rem;
-}
-.texto-banner {
-}
-.tarjeta-1 {
-  background-color: #f7f7f7;
   background-size: 100%;
   display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: space-between;
-  border-top: 0.5rem black solid;
-  min-height: 350px;
-  text-decoration: none !important;
-}
-.tarjeta-1:hover {
-  background: url(images/article1/article-banner.jpg);
-  background-position: top;
-  color: white !important;
-  border-top: 0.5rem white solid;
-  opacity: 90%;
-  background-size: 100%;
-  background-blend-mode: soft-light;
 }
 .div-rounded {
   border-radius: 100px;
@@ -130,42 +110,7 @@
 .card-texto {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-}
-.tarjeta-2 {
-  background-color: #f7f7f7;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: space-between;
-  border-top: 0.5rem black solid;
-  min-height: 350px;
-}
-.tarjeta-2:hover {
-  background: url(./images/Carolina/imagen-1-art.jpg);
-  background-position: center;
-  color: white;
-  border-top: 0.5rem white solid;
-  opacity: 90%;
-  background-repeat: no-repeat;
-  background-size: unset 100%;
-}
-.tarjeta-3 {
-  background-color: #f7f7f7;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: space-between;
-  border-top: 0.5rem black solid;
-  min-height: 350px;
-}
-.tarjeta-3:hover {
-  background: url(./images/Carolina/imagen-3-art.jpg);
-  background-position: center;
-  color: white;
-  border-top: 0.5rem white solid;
-  opacity: 90%;
-  background-repeat: no-repeat;
-  background-size: 100%;
+}kground-size: unset 100%;
 }
 .tarjeta-4 {
   background-color: #f7f7f7;
@@ -314,6 +259,9 @@ a.link-art:hover {
   background-repeat: no-repeat;
   padding-bottom: 2rem;
 }
+.tarjetas-a:hover {
+ color: white !important;
+}
 .banner-index {
   background: url(./images/Carolina/imagen-6-art.jpg);
   background-position: center;
@@ -325,6 +273,11 @@ a.link-art:hover {
 }
 .texto-banner {
   justify-content: left;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.titulo-principal {
   display: flex;
   align-items: center;
   color: white;
@@ -483,6 +436,9 @@ footer {
 @media (max-width: 800px) {
   .signup-form {
     width: 70%;
+  }
+  .columna-izquierda {
+    padding: 0 1rem;
   }
 }
 

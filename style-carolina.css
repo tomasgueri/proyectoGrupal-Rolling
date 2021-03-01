@@ -56,6 +56,7 @@
   background: url(./images/Carolina/imagen-1-art.jpg);
   background-position: center;
   color: white;
+  transition: 1.2s;
   border-top: 0.5rem white solid;
   opacity: 90%;
   background-size: unset 100%;
@@ -76,6 +77,7 @@
   border-top: 0.5rem white solid;
   opacity: 90%;
   background-size: 100%;
+  transition: 1.2s;
 }
 .tarjeta-4 {
   background-color: #f7f7f7;
@@ -90,6 +92,7 @@
   background: url(./images/Carolina/imagen-4-art.jpg);
   background-position: center;
   color: white;
+  transition: 1.2s;
   border-top: 0.5rem white solid;
   opacity: 90%;
 }
@@ -106,6 +109,7 @@
   background: url(./images/Carolina/imagen-5-art.jpg);
   background-position: bottom;
   color: white;
+  transition: 1.2s;
   border-top: 0.5rem white solid;
   opacity: 90%;
 }
@@ -122,6 +126,7 @@
   background: url(./images/Carolina/imagen-6-art.jpg);
   background-position: center;
   color: white;
+  transition: 1.2s;
   border-top: 0.5rem white solid;
   opacity: 90%;
 }
@@ -138,6 +143,7 @@
   background: url(./images/Carolina/imagen-7-art.jpg);
   background-position: center;
   color: white;
+  transition: 1.2s;
   border-top: 0.5rem white solid;
   opacity: 90%;
 }
@@ -154,6 +160,7 @@
   background: url(./images/Carolina/imagen-8-art.jpg);
   background-position: center;
   color: white;
+  transition: 1.2s;
   border-top: 0.5rem white solid;
   opacity: 90%;
 }
