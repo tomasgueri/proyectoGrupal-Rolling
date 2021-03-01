@@ -431,7 +431,9 @@ footer {
 .signup-form i {
   padding-right: 10px;
 }
-
+.about {
+  margin-top: 35px;
+}
 /* @media para modo tablet */
 @media (max-width: 800px) {
   .signup-form {
@@ -446,6 +448,9 @@ footer {
 @media (max-width: 576px) {
   .signup-form {
     width: 95%;
+  }
+  .about { 
+    margin-top: -100px;
   }
   .banner-index {
     margin-top: -30px;
